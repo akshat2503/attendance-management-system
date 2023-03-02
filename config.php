@@ -1,3 +1,3 @@
 <?php 
-$db = mysqli_connect("localhost" , "root" , "root" , "sharda") or die("Connectivity Failed");
+$db = mysqli_connect("localhost" , "root" , "root" , "attmgmt") or die("Connectivity Failed");
 ?>
