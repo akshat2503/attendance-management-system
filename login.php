@@ -17,7 +17,7 @@
                 $_SESSION['loggedIn'] = true;
                 $_SESSION['systemID'] = $systemID;
                 // echo "LoggedIn!";
-                header("location: /index.php"); 
+                header("location: index.php"); 
             } else {
                 $showError = "Invalid Credentials !";
             } 
